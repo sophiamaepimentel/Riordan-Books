@@ -1,0 +1,120 @@
+body {
+	text-align: center;
+	color:fff;
+	background:black;
+	background-image:url(../images/image.jpg);
+}
+
+a {
+	text-decoration:none;
+}
+
+
+.main-header {
+	
+	margin-bottom: 20px;
+	background:black;
+	padding: 10px 25px;
+}
+
+.button {
+	background:orange;
+	color:white;
+	padding: 10px 25px;
+	
+}
+
+.button:hover {
+	background:black;
+	color:orange;
+}
+
+#main-menu{
+	margin:0;
+	padding:0;
+	color:black;
+	text-align:center;
+	list-style:none;
+	display:grid;
+	grid-gap:20px;
+	grid-template-columns:repeat(4,1fr);
+}
+.showcase {
+	margin-bottom:20px;
+	padding:250px;
+	background-image:url(../images/image.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow:0 0 10px #ea9a1c;
+}
+.showcase:hover{
+	background-image:url(../images/image2.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.main-article {
+	margin-bottom:20px;
+	display: grid;
+	grid-gap:10px;
+	grid-template-columns: 3fr 1fr;
+}
+/* MAIN ARTICLE LEFT */
+.main-article-left{
+	background:#1266b5;
+	padding:10px;
+	display:grid;
+	grid-gap:50px;
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 0 0 13px #19e6cb;
+}
+.main-article-left p{
+	margin:30px 0 15px 0;
+	text-align: justify;
+}
+
+
+.main-article-left h3 {
+	font-family:Viner Hand ITC;
+	font-size:40px;
+	margin-top:30px;
+	color:black;
+	padding: 13px;
+	box-shadow: 0 6px 11px #0fbbd5;
+	text-shadow: 0 5px 10px #3ce4e6;
+}
+
+/*MAIN ARTICLE RIGHT*/
+.main-article-right{
+	text-align:center;
+	background:#5032ea;
+	box-shadow:0 0 13px #e95e3d;
+	
+}
+.main-article-right h4 {
+	font-family:Viner Hand ITC;
+	font-size:25px;
+	margin-top:40px;
+	color:black;
+	padding: 6px;
+	box-shadow: 0 6px 13px #e95e3d;
+	text-shadow: 0 5px 10px #e79719;
+}
+.main-article-right p{
+	text-align:justify;
+	padding:16px;
+	margin:20px 0 30px 0;
+	margin:20px 0 30px 0;
+}
+
+
+.footer {
+	text-align:center;
+	padding:6px;
+	background: #f93c0a;
+	margin-bottom: 10px;
+	box-shadow:#2d2830;
+}
+.footer:hover{
+	background:black;
+}
